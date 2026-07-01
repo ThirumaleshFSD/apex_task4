@@ -3,6 +3,7 @@ session_start();
 require_once 'db.php';
 require_once 'head.php';
 requireAdmin();
+//there are lot of changes i can make in this blog pages 
 
 $db = getDB();
 $toast = '';
