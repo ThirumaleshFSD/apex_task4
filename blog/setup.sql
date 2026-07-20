@@ -15,6 +15,7 @@ CREATE TABLE IF NOT EXISTS users (
 );
 
 -- Posts table
+--the table cretaed for the posting
 CREATE TABLE IF NOT EXISTS posts (
     id         INT AUTO_INCREMENT PRIMARY KEY,
     title      VARCHAR(255) NOT NULL,
